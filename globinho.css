@@ -4,6 +4,34 @@
     margin: 0px;
 }
 
-.animais {
-    
+header {
+    min-height: 30px;
+    text-align: center;
+    background-color: rgba(127, 255, 212, 0.63);
+    padding-bottom: 10px;
+}
+
+header > h1 {
+    font-size: 40px;
+}
+
+.produtos {
+    background-color: rgba(0, 255, 255, 0.386);
+    max-width: 500px;
+    min-height: 300px;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.314);
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.produtos > img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.produtos > button{
+    margin-top: 20px;
 }
