@@ -4,34 +4,87 @@
     margin: 0px;
 }
 
+:root{
+    --cor1: #67E4F6;
+    --cor2: #59D4C1;
+    --cor3: #6EEBB4;
+    --cor4: #59D47C;
+    --cor5: #67F667;
+}
+
+body{
+    background-color: var(--cor2);
+}
+
 header {
     min-height: 30px;
     text-align: center;
-    background-color: rgba(127, 255, 212, 0.63);
-    padding-bottom: 10px;
+    background-color: var(--cor4);
+    
 }
 
 header > h1 {
     font-size: 40px;
+    padding-bottom: 10px;
+}
+
+header > nav {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.249);
+}
+
+.card-wrappe{
+    max-width: 800px;
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    margin: auto;
+    display: block;
 }
 
 .produtos {
-    background-color: rgba(0, 255, 255, 0.386);
-    max-width: 500px;
-    min-height: 300px;
-    text-align: justify;
+    background-color: var(--cor3);
+    text-align: center;
+
+    min-width: 200px;
+    min-height: -200px;
+    max-width: 200px;
+    max-height: 200px;
+    
+
+    display: inline-block;
+    
+   
     padding: 20px;
+    margin:auto;
+    margin-bottom: 10px;
+   
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.314);
-    margin: auto;
-    margin-bottom: 10px;
+
+    
 }
 
 .produtos > img {
-    max-width: 150px;
-    max-height: 150px;
+    text-align: center;
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
 }
 
 .produtos > button{
     margin-top: 20px;
+}
+
+footer{
+    background-color: var(--cor1);
+    font-family: cursive;
+    text-align: center;
+    font-size: 10px;
+
+    padding: 20px;
+    margin-top: 20px;
+    min-height: 30px;
+
+    padding-top: absolute;
 }
