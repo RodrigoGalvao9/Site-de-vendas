@@ -5,37 +5,63 @@
 }
 
 :root{
-    --cor1: #67E4F6;
-    --cor2: #59D4C1;
-    --cor3: #6EEBB4;
-    --cor4: #59D47C;
-    --cor5: #67F667;
+    --cor1: #fffc6b;
+    --cor2: #ffB26B;
+    --cor3: #ff6B6D;
+    --cor4: #b8ff6b;
 }
 
 body{
-    background-color: var(--cor2);
+    background-color: var(--cor1);
 }
 
 header {
     min-height: 30px;
     text-align: center;
+    background: linear-gradient(to bottom, var(--cor5), var(--cor4) );
     background-color: var(--cor4);
-    
+
+    font-family: cursive;
 }
 
 header > h1 {
-    font-size: 40px;
+    font-size: 100px;
     padding-bottom: 10px;
 }
 
 header > nav {
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.249);
+    text-decoration: none;
+    background-color: var(--cor3);
+    
 }
 
-.card-wrappe{
+header > nav > a:hover {
+    color: white;
+}
+
+main{
+    
     max-width: 800px;
-    background-color: rgb(128, 128, 128);
+    padding-top: 10px;
+    margin: auto;
+    padding: 10px;
+    min-height: 650px;
+
+    background-color: aliceblue;
+    text-align: justify;
+    font-family: cursive;
+   
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.341);
+}
+
+.filter-card{
+    margin-bottom: 20px;
+}
+
+.content{
+    max-width: 800px;
     text-align: center;
     margin: auto;
     display: block;
@@ -60,8 +86,10 @@ header > nav {
    
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.314);
+}
 
-    
+.produtos:hover{
+    background-color: #ff6b6ec2;
 }
 
 .produtos > img {
@@ -70,6 +98,9 @@ header > nav {
     max-height: 50px;
     min-width: 50px;
     min-height: 50px;
+
+    border-style: ridge;
+    border-radius: 5px;
 }
 
 .produtos > button{
@@ -77,7 +108,7 @@ header > nav {
 }
 
 footer{
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     font-family: cursive;
     text-align: center;
     font-size: 10px;
