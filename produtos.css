@@ -56,6 +56,10 @@ main{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.341);
 }
 
+main > h2{
+    margin-bottom: 20px;
+}
+
 .filter-card{
     margin-bottom: 20px;
 }
@@ -66,6 +70,7 @@ main{
     margin: auto;
     display: block;
 }
+
 
 .produtos {
     background-color: var(--cor3);
