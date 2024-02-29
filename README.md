@@ -1,2 +1,2 @@
-# Site-de-vendas-ilegal
+# Site-de-vendas
 Apenas um projeto escolar
